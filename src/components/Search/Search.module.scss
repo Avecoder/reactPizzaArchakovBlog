@@ -1,0 +1,20 @@
+.root {
+  position: relative;
+  .clean {
+    position: absolute;
+    color: #fe5f1e;
+    font-size: 14px;
+    right: 4px;
+    top: 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  .input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 12px 20px;
+    width: 400px;
+    border-radius: 10px;
+    transition: .15s all ease-in-out;
+    padding-right: 50px;
+  }
+}
